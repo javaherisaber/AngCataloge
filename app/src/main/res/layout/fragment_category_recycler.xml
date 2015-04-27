@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_detail"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            app:pager_animation="Default"
+            app:auto_cycle="true"
+            android:background="#ffffff"
+            app:indicator_visibility="visible"
+            app:pager_animation_span="1100"
+            app:layout_collapseMode="pin"
+            android:layout_height="@dimen/main_slider_height" />
+
+        <TextView
+            android:id="@+id/txtCategText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="#44000000"
+            android:text="دسته بندی محصولات"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/categoryRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:choiceMode="singleChoice"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

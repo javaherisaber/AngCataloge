@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBsm9_Z5Xnuj2YTF8PtcuE4YyY8zxJR9mc</string>
+    <string name="google_app_id">oceanic-impact-134806</string>
+
+
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+    -->
+    <!--
+        configure google_maps_key and google_app_id :::
+        1-turn on VPN
+        2-sign-in into your google account
+        3-open this link :
+            https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&reusekey=true
+        4-create new project or use existing googleConsole project
+        5-create new api key in your googleConsole
+        6-in the result form you'll see two section
+            package name  & SHA-1 certificate fingerprint
+          you should get two SHA-1 certificate for your app and put them into this form
+
+            7-a)get debug certificate :
+                Locate your debug keystore file. The file name is debug.keystore, and is created the first time you build your project.
+                By default, it is stored in the same directory as your Android Virtual Device (AVD) files:
+                C:\Users\your_user_name\.android\
+                remember this location for your debug.keystore
+
+                go to the keytool in java path : C:\Program Files\Java\jdk1.8.0_91\bin
+                open command prompt over there
+                List the SHA-1 fingerprint by this command :
+                    keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+                in the result you'll see debug SHA-1 key (use this for googleConsole)
+            7-b)get release certificate :
+                remember your signature keystore file location
+                go to the keytool in java path : C:\Program Files\Java\jdk1.8.0_91\bin
+                open command prompt over there
+                List the SHA-1 fingerprint by this command :
+                    keytool -list -v -keystore your_keystore_fullpath -alias your_alias_name
+                in the result you'll see release SHA-1 key (use this for googleConsole)
+        8-name your api key and press save button
+          Once you have your key (it starts with "AIza") replace it in your google_maps_api.xml google_maps_key section
+        9-last thing that you should do is get google_app_id
+          at the top of your googleConsole on the right section beside send feedback button you'll see your project name
+          click on it
+          in front of your project name you'll see your project id
+          copy it and replace it in google_maps_api.xml google_app_id section
+
+        All done !!:D
+
+    -->
+</resources>

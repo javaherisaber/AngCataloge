@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="6dp"
+    app:cardBackgroundColor="#661013c3"
+    android:layout_marginBottom="6dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    app:cardCornerRadius="4dp"
+    android:focusableInTouchMode="false">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="270dp"
+        android:layout_margin="4dp"
+        android:layout_height="60dp">
+
+
+        <ImageView
+            android:id="@+id/imgCategoryImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:text="دسته بندی محصولات"
+            android:layout_marginLeft="15dp"
+            android:textSize="24sp"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:layout_toRightOf="@id/imgCategoryImage"
+            android:layout_height="wrap_content" />
+
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="#000000" />-->
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

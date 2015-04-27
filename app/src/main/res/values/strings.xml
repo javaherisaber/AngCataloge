@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Google Map -->
+    <string name="map_marker_name_ANG_fa">گروه صنعتی اِی اِن جی</string>
+    <string name="map_marker_name_ANG_ar">مجموعة الصناعية اِی اِن جی</string>
+    <string name="map_marker_name_ANG_en">ANG industrial group</string>
+    <string name="map_latitude_ANG_Tehran">35.717726</string>
+    <string name="map_longitude_ANG_Tehran">51.440386</string>
+    <string name="map_latitude_ANG_Qom">34.622401</string>
+    <string name="map_longitude_ANG_Qom">50.871050</string>
+    <string name="map_zoom_level_ANG">17.0f</string>
+    <!-- -->
+
+    <!-- Call Fragment -->
+    <string name="phone_call_Qom">02532612021</string>
+    <string name="phone_call_Tehran">02177655005</string>
+    <string name="email_address">info@ang.ir</string>
+    <string name="url_address">www.ang.ir</string>
+    <string name="url_address_text">http://ang.ir/</string>
+    <string name="email_subject_fa">پیام به ANG</string>
+    <string name="email_subject_ar">رسالة إلى اِی اِن جی</string>
+    <string name="email_subject_en">message to ANG</string>
+    <string name="office_name_Tehran_fa">دفتر تهران</string>
+    <string name="office_name_Tehran_ar">مکتب طهران</string>
+    <string name="office_name_Tehran_en">office Tehran</string>
+    <string name="office_name_Qom_fa">دفتر قم</string>
+    <string name="office_name_Qom_ar">مکتب قم</string>
+    <string name="office_name_Qom_en">office Qom</string>
+    <string name="sales_center_fa">واحد فروش</string>
+    <string name="sales_center_ar">مبيعات</string>
+    <string name="sales_center_en">Sales center</string>
+    <string name="address_on_map_fa">آدرس روی نقشه</string>
+    <string name="address_on_map_ar">العنوان على خريطة</string>
+    <string name="address_on_map_en">Address on the map</string>
+    <!-- -->
+
+    <!-- Info Fragment -->
+    <string name="about_fa">گروه صنعتی ANG یکی از پیشگامان صنایع روکشی ایران ، در حال حاضر با تولید صفحات MDF ، فوم  PVC ، صفحات کابینت MDF ،  Polywood و سنگ نمای PVC (با نام تجاری PSD)  گسترده ترین طیف محصولات را در ایران و خاورمیانه در اختیار دارد.\n\n
+تمایز گروه ANG در تولید و گسترش بازار محصولات ، بر پایه ی اصول زیر می باشد :\n\n
+1-	کنترل کیفیت مستمر خدمات و محصولات\n
+2-	انجام تحقیقات بازار و تولید محصولات به روز ، مطابق با سلیقه  مشتری\n
+3-	به کارگیری استانداردهای جهانی و استفاده از آخریت دستاوردهای صنعت\n
+4-	گسترش خدمات ، محصولات و شبکه ی فروش\n
+5-	برنامه ریزی مدون و پیروی از ساختارهای تعالی سازمانی\n\n
+از این رو موفقیت و محبوبیت محصولات ANG در بازار ایران و خاورمیانه با به کارگیری اصول قوی و همت پرسنل و مدیران متعهد این گروه به دست آموده است\n\n
+    </string>
+    <string name="about_ar">التعریب العریبه</string>
+    <string name="about_en">english description of company</string>
+    <!-- -->
+
+    <string name="app_name">ANG</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_gallery">ANG</string>
+    <string name="title_activity_activity_detail">ANG</string>
+    <string name="title_activity_activity_splash">ANG</string>
+    <string name="title_activity_activity_test">ActivityTest</string>
+    <string name="title_activity_activity_map">Map</string>
+</resources>

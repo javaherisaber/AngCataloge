@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatButton android:id="@+id/btnAddressTehran"
+    android:layout_width="270dp"
+    android:layout_height="70dp"
+    android:text="@string/address_on_map_fa"
+    android:textSize="24sp"
+    android:textColor="#ffffff"
+    android:drawableRight="@mipmap/ic_location"
+    android:drawablePadding="4dp"
+    android:theme="@style/CallButton4"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
